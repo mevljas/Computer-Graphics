@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.Domača naloga</title>
+</head>
+<body>
+<canvas id="myCanvas" style="border: 1px solid black;"></canvas>
+<br>
+Izbira krvulje:
+<select id="selectCurve">
+</select>
+<br>
+Izbira barve:
+<input id="colorPicker" type="color"/>
+<br>
+<button onclick="deleteCurve()">Izbriši krivuljo</button>
+<button onclick="changeColor()">Zamenjaj barvo</button>
+<br>
+<button onclick="newCurve()">Nova krivulja</button>
+
+
+<h1>Navodila</h1>
+<p>
+    Nova vozlišča na platno dodate s klikom na ustrezno mesto. <br>
+    Ob kliku pazite, da miške ne premikate.<br>
+    Točke premikate tako, da kliknete na vozlišče in ob držanju miškine tipke vozlišče premaknete.<br>
+    Krivuljo izbrišete tako, da jo izberete v seznamu in kliknete na ustrezen gumb.<br>
+    Ob kliku na gumb "Nova krivulja", se začne izris nove krivulje.<br>
+    Krivulji zamenjamo barvo tako, da jo izberemo na seznamu, izberemo želeno barvo in klinemo na ustrezni gumb.<br>
+    V kolikor krivulja ni izbrana, se nastavi privzeta barva za nove krivulje.
+
+
+</p>
+
+
+</body>
+<script src="bezier.js"></script>
+</html>

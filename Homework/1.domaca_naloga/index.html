@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.Domaca_naloga</title>
+    <script src="js/Vector4f.js" type="text/javascript"></script>
+    <script src="js/PointManager.js" type="text/javascript"></script>
+    <script src="js/Transformation.js" type="text/javascript"></script>
+    <script src="js/TransformPoints.js" type="text/javascript"></script>
+    <script src="js/Matrix4f.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<p>Enter coordinates as:</p>
+<pre>
+v x1 y1 z1
+v x2 y2 z2
+v x3 y3 z3
+...
+</pre>
+<p>Input</p>
+<textarea cols="40" id="input" placeholder="Enter data here..." rows="5"></textarea>
+<br>
+<button onclick="PointManager.read()" type="button">Confirm</button>
+<p>Output</p>
+<textarea cols="80" id="output" rows="5" disabled></textarea>
+
+
+</body>
+</html>
