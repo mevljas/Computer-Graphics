@@ -51,7 +51,8 @@ technology and research groups.
 - Practical knowledge and skills of computer
 hardware, software and information technology
 necessary for successful professional work in
-computer and information science.  
+computer and information science.
+  
 The ability to independently perform both less
 demanding and complex engineering and organisational
 tasks in certain narrow areas and independently solve
